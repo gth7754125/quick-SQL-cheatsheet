@@ -42,7 +42,7 @@ Pull requests are welcome. Enjoy!
 * Not all database systems support `SELECT TOP`. The MySQL equivalent is the `LIMIT` clause
 * `SELECT` column_names `FROM` table_name `LIMIT` offset, count;
 * `LIMIT n` = `LIMIT 0,n = return record 0~n-1`
-* `LIMIT 2,1 = return row 3`   # record start from 0
+* `LIMIT 2,1 = return row 3` = `return row index 2`  # record start from index 0
 
 ### **LIKE**: operator used in a WHERE clause to search for a specific pattern in a column
 * % (percent sign) is a wildcard character that represents zero, one, or multiple characters
